@@ -1,0 +1,259 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+
+html {
+    color: #222;
+    font-size: 16px;
+    line-height: 1.4;
+    background: #f3f4f7;
+}
+
+/* Basic styles */
+
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 1vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main content container */
+
+.container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.container:before, .container:after {
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+@media (max-width: 600px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 944px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1080px;
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+.container-fluid:after {
+    clear: both;
+}
+
+@media (max-width: 1024px) {
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+.paper{
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 50px 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #73738b;
+}
+
+.section-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.2em;
+}
+
+.simple-nav{
+    margin: 0 auto;
+}
+.simple-nav ul{
+    padding: 0;
+    margin: 1em 0 2em;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.simple-nav ul a{
+    color: #a4a6aa;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+.simple-nav ul a:hover{
+    color: #0092a8;
+}
+
+.section{
+    padding: 2em 0;
+    margin: 2em 0 3em;
+    border-top: 1px solid rgba(0,0,0, 0.14);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #bfbfc6;
+}
+
+table th{
+    padding: 12px 20px;
+    background: #f7f8fa;
+}
+table tr th{
+    text-align: left;
+}
+
+table td{
+    padding: 20px 20px;
+}
+
+.simple-list li{
+    margin: 5px 0;
+}
+
+.flexed-row{
+    display: flex;
+}
+
+.flexed-row div{
+    flex: 0 0.5 50%;
+}
+
+.flexed-row ul, ol{
+    margin: 0.5em 0 1.5em;
+}
+
+.square-list{
+    list-style: square;
+}
+
+.circle-list{
+    list-style: circle;
+}
+
+.no-bullets-list{
+    list-style: none;
+}
+
+.custom-img-list {
+    list-style-image: url('../images/ico-other-goods.svg');
+}
+
+.decimal-list{}
+
+.decimal-zero-list{
+    list-style: decimal-leading-zero;
+}
+
+.ascii-letter-list{
+    list-style: lower-latin;
+}
+
+.romal-letter-list{
+    list-style: lower-roman;
+}
+
+.custom-num-list {
+    margin: 35px 0 45px;
+    padding-left: 62px;
+    list-style: none;
+    clear: both;
+}
+.custom-num-list li {
+    color: #7f819b;
+    font-weight: normal;
+    display: block;
+    margin: 20px 0;
+    padding: 6px 0;
+    position: relative;
+    counter-increment: inst;
+}
+.custom-num-list li:before {
+     content: counter(inst);
+     top: 0;
+     left: -63px;
+     color: #fff;
+     font-size: 26px;
+     font-weight: 500;
+     line-height: 40px;
+     text-align: center;
+     background: #35d694;
+     font-family: 'Open Sans', sans-serif;
+     position: absolute;
+     height: 40px;
+     width: 40px;
+}

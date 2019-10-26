@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML + CSS Task 2</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="container">
+            <div class="paper">
+                <h4 class="subtitle">Home Work 2</h4>
+                <h1 class="title">HTML tables, lists, forms, images, audio, video</h1>
+                <nav class="simple-nav">
+                    <ul>
+                        <li><a href="#task1">Task 1</a></li>
+                        <li><a href="#task2">Task 2</a></li>
+                        <li><a href="#task3">Task 3</a></li>
+                    </ul>
+                </nav>
+                <section class="section" id="task1">
+                    <h3 class="section-title">Task 2.1 Table markup</h3>
+                    <table border="1">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>2010</th>
+                            <th>2012</th>
+                            <th>2014</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>Sapphires</th>
+                            <td rowspan="2">4532</td>
+                            <td>6732</td>
+                            <td>6732</td>
+                        </tr>
+                        <tr>
+                            <th>Rubies</th>
+                            <td>3867</td>
+                            <td>6732</td>
+                        </tr>
+                        <tr>
+                            <th>Diamonds</th>
+                            <td>432</td>
+                            <td colspan="2">4321</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="section" id="task2">
+                    <h3 class="section-title">Task 2.2 List markup</h3>
+                    <h4>Some planet satellites</h4>
+                    <ul class="simple-list">
+                        <li>Earth
+                            <ol>
+                                <li>Moon</li>
+                            </ol>
+                        </li>
+                        <li>Mars
+                            <ol>
+                                <li>Phobos</li>
+                                <li>Deimos</li>
+                            </ol>
+                        </li>
+                        <li>Uranus
+                            <ol>
+                                <li>Ariel</li>
+                                <li>Umbriel</li>
+                                <li>Titania</li>
+                                <li>Oberon</li>
+                                <li>Miranda</li>
+                            </ol>
+                        </li>
+                        <li>Neptune
+                            <ol>
+                                <li>Triton</li>
+                                <li>Nereid</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="task3">
+                    <h3 class="section-title">Task 2.3 Unordered and Ordered Lists</h3>
+                   <div class="flexed-row">
+                       <div>
+                           <h4>Unordered Lists</h4>
+                           <h5>Disc</h5>
+                           <ul>
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ul>
+                           <h5>Square</h5>
+                           <ul class="square-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ul>
+                           <h5>Circle</h5>
+                           <ul class="circle-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ul>
+                           <h5>None - No bullets</h5>
+                           <ul class="no-bullets-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ul>
+                           <h5>Custom marker image</h5>
+                           <ul class="custom-img-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ul>
+                       </div>
+                       <div>
+                           <h4>Ordered Lists</h4>
+                           <h5>Decimal</h5>
+                           <ol class="decimal-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ol>
+                           <h5>Decimal with leading zeros</h5>
+                           <ol class="decimal-zero-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ol>
+                           <h5>Lowercase ascii letters</h5>
+                           <ol class="ascii-letter-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ol>
+                           <h5>Lowercase roman numeral</h5>
+                           <ol class="romal-letter-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ol>
+                           <h5>Custom styles</h5>
+                           <ol class="custom-num-list">
+                               <li>Item one</li>
+                               <li>Item two</li>
+                               <li>Item three</li>
+                           </ol>
+                       </div>
+                   </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
