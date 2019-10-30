@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML + CSS Task 3</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#important">The most important info</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-hero" id="home">
+    <div class="hero-bg-image"></div>
+    <h1 class="main-title">Awesome Parallax</h1>
+    <h3 class="subtitle">8 useful CSS tricks: Parallax images, sticky footers and more</h3>
+    <p>This article shares some of my most satisfying “ah-hah!” moments learning CSS, and I hope it can prompt some “ah-hah!” moments for you too.</p>
+    <p class="request-text">Want to try?</p>
+    <a>Try now</a>
+</main>
+
+<section>
+    <article id="important">
+        <h2>Pigs Flying schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Friday</th>
+                    <th>Wednesday</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Sunny</td>
+                <td>Not today...</td>
+                <td>Too much work</td>
+                <td>May be on Monday</td>
+                <td>Not today...</td>
+            </tr>
+            <tr>
+                <td>Warning! is Storm!!!</td>
+                <td>Yeee!! Time to fly!</td>
+                <td>Not today...</td>
+                <td>Give me a few minutes</td>
+                <td>Sleepy day</td>
+
+            </tr>
+            <tr>
+                <td>Cloudy</td>
+                <td>Give me a few minutes</td>
+                <td>May be tomorrow...</td>
+                <td>Sleepy day</td>
+                <td>Too much work</td>
+            </tr>
+            </tbody>
+        </table>
+    </article>
+</section>
+
+
+<section id="about">
+    <article class="article">
+        <img src="images/services-header.jpg" alt="article1">
+        <div class="article-content">
+            <h2>Sticky Footer</h2>
+            <p>For the most projects, you’ll want a footer that stays at the bottom of the screen, regardless of the size of the content — if the page’s content goes past the view-port, the footer should adapt.</p>
+            <p>Before CSS3, it was very difficult to achieve this effect without knowing the exact height of your footer. And, although we call it a sticky footer, you can’t simply solve this with position: sticky , because that can block content.</p>
+            <p>Today, the most compatible solution is to use Flexbox. The key is to use the less well-known flex-grow property on the div containing the main content of the page; in the example below, I’m using the main tag.</p>
+            <a href="https://medium.com/@bretcameron/parallax-images-sticky-footers-and-more-8-useful-css-tricks-eef12418f676" target="_blank" class="read-more">Read more...</a>
+        </div>
+    </article>
+    <article class="article">
+        <div class="article-content">
+            <h2>Zoom-on-Hover Images</h2>
+            <p>The zoom-on-hover effect is a great way to draw attention to a clickable image. When a user hovers over it, the image scales up slightly, but its dimensions remain the same.</p>
+            <p>To achieve this effect, we need a wrapper div to go around our normal img tag in the HTML.</p>
+            <a href="https://medium.com/@bretcameron/parallax-images-sticky-footers-and-more-8-useful-css-tricks-eef12418f676" target="_blank" class="read-more">Read more...</a>
+        </div>
+        <img src="images/contact-header.jpg" alt="article2">
+    </article>
+</section>
+
+<section>
+    <form id="contact" class="form">
+        <label>
+            Your name
+            <input type="text" name="name" placeholder="Please enter..." required/>
+        </label>
+        <label>
+            Your email
+            <input type="email" name="email" placeholder="Please enter..." required/>
+        </label>
+        <label>
+            Company name (optional)
+            <input type="text" name="name" placeholder="Please enter..."/>
+        </label>
+        <label>
+            What is your question/purpose?
+            <textarea name="message" cols="30" rows="10" placeholder="Enter your message..." required></textarea>
+        </label>
+        <fieldset>
+            What is your position?
+            <label>
+                Student
+                <input type="radio" name="position" value="student">
+            </label>
+            <label>
+                Developer
+                <input type="radio" name="position" value="developer">
+            </label>
+            <label>
+                Designer
+                <input type="radio" name="position" value="designer">
+            </label>
+            <label>
+                Just interested in
+                <input type="radio" name="position" value="fellow">
+            </label>
+        </fieldset>
+        <label>
+            Get hot news and funny stories from Medium
+            <input type="checkbox" name="newsletter">
+        </label>
+        <button>Send form</button>
+    </form>
+</section>
+
+<footer>
+    <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="social-links">
+        <li><a href="">fb</a></li>
+        <li><a href="">inst</a></li>
+        <li><a href="">gmail</a></li>
+    </ul>
+    <p class="copyrights"></p>
+</footer>
+
+</body>
+</html>
