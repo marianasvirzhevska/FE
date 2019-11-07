@@ -3,6 +3,77 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700,800&display=swap');
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wxzxy7');
+  src:  url('../fonts/icomoon.eot?wxzxy7#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?wxzxy7') format('truetype'),
+        url('../fonts/icomoon.woff?wxzxy7') format('woff'),
+        url('../fonts/icomoon.svg?wxzxy7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-chevrons-up:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-github:before {
+  content: "\e902";
+}
+.icon-linkedin:before {
+  content: "\e903";
+}
+.icon-mail:before {
+  content: "\e904";
+}
+.icon-map-pin:before {
+  content: "\e905";
+}
+.icon-phone:before {
+  content: "\e906";
+}
+.icon-github-logo-face:before {
+  content: "\e909";
+}
+.icon-facebook1:before {
+  content: "\e907";
+}
+.icon-brand:before {
+  content: "\e907";
+}
+.icon-social:before {
+  content: "\e907";
+}
+.icon-linkedin1:before {
+  content: "\e908";
+}
+.icon-brand1:before {
+  content: "\e908";
+}
+.icon-social1:before {
+  content: "\e908";
+}
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -437,7 +508,30 @@ $font-small: 13px;
 
 .nav-level-1, .nav-level-2{
   ul{
-    display: none;
+    top: 24px;
+    //display: none;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    position: absolute;
+    @include flex-flow-column;
+    background: white;
+    transform: scaleY(0);
+    transition: translate ease 0.1s;
+    li{
+      margin: 0;
+
+    }
+  }
+}
+
+.nav-level-1:hover{
+  & > ul{
+    @include flex;
+    transform: scaleY(1) !important;
+    transition: translate ease 0.1s;
+
+
   }
 }
 
@@ -586,18 +680,24 @@ $font-small: 13px;
   &-info{
     flex: 0 0.5 50%;
     a{
-      width: fit-content;
       display: block;
+      width: fit-content;
       text-decoration: none;
       color: $font-blue;
-      margin: 10px 0;
-      padding-left: 40px;
-      position: relative;
+      margin: 16px 0;
+      span{
+        margin-right: 8px;
+      }
+    }
+    p{
+      margin: 16px 0;
+      color: #a0a3ae;
+      span{
+        margin-right: 8px;
+      }
     }
   }
   .form{
-    flex: 0 0.5 50%;
-
     .form-group {
       width: 100%;
       margin: 10px 0;
@@ -673,7 +773,7 @@ $font-small: 13px;
 }
 
 .map-container{
-  margin: 75px 0;
+  flex: 0 0.5 50%;
   div {
     position: relative;
     overflow: hidden;
@@ -688,3 +788,92 @@ $font-small: 13px;
     }
   }
 }
+
+
+// footer styles
+
+footer{
+  .copyrights{
+    color: #a0a3ae;
+    font-size: $font-small;
+    font-weight: normal;
+    line-height: 30px;
+  }
+  .footer-nav{
+    @include flex;
+    @include flex-flow-row-nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      margin: 0 20px;
+      a{
+        padding: 0 20px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: $font-small;
+        font-weight: normal;
+        color: $font-blue;
+      }
+    }
+  }
+  .socials{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    @include flex;
+    @include flex-flow-row;
+    align-items: center;
+    li{
+      margin: 0 0 0 24px;
+      width: 22px;
+      color: #a0a3ae;
+      a{
+        font-size: 17px;
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+    li.socials-title{
+      width: auto;
+      color: #a0a3ae;
+      font-size: $font-small;
+      font-weight: normal;
+    }
+  }
+}
+.flexed-row{
+  @include flex;
+  @include flex-flow-row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

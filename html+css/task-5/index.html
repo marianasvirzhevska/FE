@@ -17,15 +17,15 @@
                 <ul class="main-nav">
                     <li class="nav-level-1"><span>Introduction >></span>
                         <ul>
-                            <li class="nav-level-2"><span>Intro level 1 >></span>
+                            <li class="nav-level-2"><span>level 1 >></span>
                                 <ul>
-                                    <li><span>Intro level 2</span>
-                                    <li><span>Intro level 2</span>
-                                    <li><span>Intro level 2</span>
+                                    <li><span>level 2</span>
+                                    <li><span>level 2</span>
+                                    <li><span>level 2</span>
                                 </ul>
                             </li>
-                            <li><span>Intro level 1</span>
-                            <li><span>Intro level 1</span>
+                            <li><span>level 1</span>
+                            <li><span>level 1</span>
                         </ul>
                     </li>
                     <li><span>Services</span></li>
@@ -136,39 +136,66 @@
         <div class="contacts-row">
             <div class="contacts-info">
                 <h3>Kiev</h3>
-                <a href="tel:+3809355557744">+380935878843</a>
-                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">ari.villoso@academy.com</a>
-                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">info.center@academy.com</a>
+                <p>
+                    <span class="icon-map-pin"></span>
+                    28 Fizkultury Street, 03150
+                </p>
+                <a href="tel:+3809355557744">
+                    <span class="icon-phone"></span>+380935878843
+                </a>
+                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">
+                    <span class="icon-mail"></span>ari.villoso@academy.com
+                </a>
+                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">
+                    <span class="icon-mail"></span>info.center@academy.com
+                </a>
             </div>
-            <div class="form">
-                <form>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" required>
-                        <label for="name">Your name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="email_skype" name="email_skype" required>
-                        <label for="email_skype">Your email or skype</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="company" name="company" required>
-                        <label for="company">  Company name</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                        <label for="message">   What is your question/purpose?</label>
-                    </div>
-                    <button>Send form</button>
-                </form>
+            <div class="map-container">
+                <div>
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=28%20Fizkultury%20Street%2C%2003150%20Kyiv%20Ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
             </div>
         </div>
-        <div class="map-container">
-            <div>
-                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=28%20Fizkultury%20Street%2C%2003150%20Kyiv%20Ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your name</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email_skype" name="email_skype" required>
+                    <label for="email_skype">Your email or skype</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="company" name="company" required>
+                    <label for="company">  Company name</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                    <label for="message">   What is your question/purpose?</label>
+                </div>
+                <button>Send form</button>
+            </form>
         </div>
     </div>
 </section>
 
+<footer class="container-fluid">
+    <div class="container flexed-row">
+        <p class="copyrights">&copy; 2019, Ari Villoso. All rights reserved.</p>
+        <ul class="footer-nav">
+            <li><a href="">Main</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+        <ul class="socials">
+            <li class="socials-title">Follow us</li>
+            <li><a href="https://www.linkedin.com/in/mariana-svirzhevska-09404a149/" target="_blank"><span class="icon-linkedin1"> </span></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><span class="icon-facebook1"> </span></a></li>
+            <li><a href="https://github.com/" target="_blank"><span class="icon-github-logo-face"> </span></a></li>
+        </ul>
+    </div>
+</footer>
 
 
 </body>
