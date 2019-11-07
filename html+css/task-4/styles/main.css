@@ -62,39 +62,75 @@ h2 span{
 }
 
 .breadcrumbs li{
-  margin: 5px;
   color: #fff;
-  background: #51dcf1;
-  border-radius: 4px;
 }
 
-.breadcrumbs li:last-child{
-  background: rgba(55, 80, 255, 0.8);
-}
 
-.breadcrumbs a{
+
+.breadcrumbs li a{
   display: block;
   padding: 15px 30px;
   text-decoration: none;
   color: inherit;
   font-family: 'Ubuntu', sans-serif;
+  background: #51dcf1;
+  border-radius: 4px 0 0 4px;
+  position: relative;
+}
+.breadcrumbs li:last-child a{
+  background: #3750ff;
+}
+.breadcrumbs li a::after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 24px solid #51dcf1;
+  position: absolute;
+  /*top: 50%;*/
+  margin-top: -33px;
+  left: 100%;
+  z-index: 2;
+}
+.breadcrumbs li a::before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 24px solid #fff;
+  position: absolute;
+  /*top: 50%;*/
+  margin-top: -15px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1;
 }
 
-.breadcrumbs li:hover{
-  opacity: 0.8;
+.breadcrumbs li:last-child a::after {
+  border-left: 24px solid #3750ff;
 }
 
-.breadcrumbs.second a{
+.breadcrumbs.second li a{
   font-family: 'mplus', sans-serif;
 }
 
-.breadcrumbs.second li:last-child{
+.breadcrumbs.second li:last-child a{
   background: #51dcf1;
 }
+.breadcrumbs.second li:last-child a::after {
+  border-left: 24px solid #51dcf1;
+}
 
-.breadcrumbs.second li:hover{
-  opacity: 1;
-  background: rgba(55, 80, 255, 0.8);
+.breadcrumbs.second li a:hover{
+  background: #3750ff;
+}
+
+.breadcrumbs.second li a:hover::after{
+  border-left: 24px solid #3750ff;
 }
 
 
