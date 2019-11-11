@@ -6,57 +6,66 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML + CSS Task 5</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 <div class="main">
-    <section class="container-fluid">
-        <main class="container">
-            <nav class="nav">
+    <main class="container-fluid">
+        <section class="container">
+            <nav class="nav-container">
                 <a href="" class="logo">
                     <img src="./images/logo.svg" alt="logo">
-                    <span>Ari Villoso</span>
+                    <span>Smart View</span>
                 </a>
-                <ul>
-                    <li class="accordion">
-                        <a href="#contacts">Level 0 (Link)</a>
-                        <input type="checkbox" id="level1" class="accordion-switch">
-                        <label for="level1" class="accordion-trigger"><span class="icon icon-chevron-right"></span></label>
-                        <ul class="accordion-target">
-                            <li class="accordion">
-                                <a href="#contacts">Level 2 (Link)</a>
-                                <input type="checkbox" id="level2" class="accordion-switch">
-                                <label for="level2" class="accordion-trigger"><span class="icon icon-chevron-right"></span></label>
-                                <ul class="accordion-target">
-                                    <li><span>level 2</span>
-                                    <li><span>level 2</span>
-                                    <li><span>level 2</span>
-                                </ul>
-                            </li>
-                            <li><span><a href="#contacts">level 1</a></span>
-                            <li><span>level 1</span>
-                            <li><span>level 1</span>
-                            <li><span>level 1</span>
-                            <li><span>level 1</span>
-                        </ul>
-                    </li>
-                    <li><span>Services</span></li>
-                    <li><span>Cases</span></li>
-                    <li><span>Benefits</span></li>
-                    <li><span>Contacts</span></li>
-                </ul>
+                <input type="checkbox" id="nav-mobile" class="nav-mobile-switch">
+                <label for="nav-mobile" class="nav-mobile-trigger"></label>
+                <div class="nav">
+                    <ul>
+                        <li class="accordion">
+                            <a href="#contacts">Level 0 (Link)</a>
+                            <input type="checkbox" id="level1" class="accordion-switch">
+                            <label for="level1" class="accordion-trigger"><span class="icon icon-chevron-right"></span></label>
+                            <ul class="accordion-target">
+                                <li class="accordion">
+                                    <a href="#contacts">Level 2 (Link)</a>
+                                    <input type="checkbox" id="level2" class="accordion-switch">
+                                    <label for="level2" class="accordion-trigger"><span class="icon icon-chevron-right"></span></label>
+                                    <ul class="accordion-target">
+                                        <li><span>level 2</span>
+                                        <li><span>level 2</span>
+                                        <li><span>level 2</span>
+                                    </ul>
+                                </li>
+                                <li><span><a href="#contacts">level 1</a></span>
+                                <li><span>level 1</span>
+                                <li><span>level 1</span>
+                                <li><span>level 1</span>
+                                <li><span>level 1</span>
+                            </ul>
+                        </li>
+                        <li><span>Services</span></li>
+                        <li><span>Cases</span></li>
+                        <li><span>Benefits</span></li>
+                        <li><span>Contacts</span></li>
+                    </ul>
+                </div>
             </nav>
-
             <div class="main-content">
                 <h2>Product Design and User Experience Optimization</h2>
                 <h1 class="h1-title">Improve your product,<span>increase profit</span></h1>
                 <h3>We provide services to improve customer interaction with your product,
                     as a result of which your business brings you more profit</h3>
             </div>
-        </main>
-    </section>
+        </section>
+    </main>
 </div>
-<section class="container-fluid about">
+<section class="container-fluid content about">
     <div class="container">
         <h2 class="h2-title">Our awesome team!</h2>
         <div class="team">
@@ -65,7 +74,7 @@
                     <img src="./images/team/chardy.jpg" alt="img">
                 </div>
                 <div class="desc">
-                    <h4>Ari Villoso</h4>
+                    <h4>Chardy Villington</h4>
                     <p>Co-Founder, Project manager</p>
                 </div>
             </div>
@@ -74,8 +83,8 @@
                     <img src="./images/team/julie.jpg" alt="img">
                 </div>
                 <div class="desc">
-                    <h4>Ari Villoso</h4>
-                    <p>Co-Founder, Managing partner</p>
+                    <h4>Julia Green</h4>
+                    <p>Developer</p>
                 </div>
             </div>
             <div class="team-member">
@@ -83,7 +92,7 @@
                     <img src="./images/team/kinsey.jpg" alt="img">
                 </div>
                 <div class="desc">
-                    <h4>Ari Villoso</h4>
+                    <h4>Kinsey Jackson</h4>
                     <p>UI/UX Designer</p>
                 </div>
             </div>
@@ -109,12 +118,12 @@
     </div>
 </section>
 
-<section class="container-fluid" >
+<section class="container-fluid content">
     <div class="container">
         <div class="form">
             <h2 class="h2-title">Join our team</h2>
             <p>Contact us using form below or our email address
-                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">info.center@academy.com</a>
+                <a href="mailto:mariana.svirzhevska@gmail.com">info.center@academy.com</a>
             </p>
             <form>
                 <div class="flexed-row">
@@ -137,7 +146,7 @@
     </div>
 </section>
 
-<section class="container-fluid benefits" id="benefits">
+<section class="container-fluid content benefits" id="benefits">
     <div class="container">
         <h2 class="h2-title">The <span>benefits</span> that we bring to you</h2>
         <div class="benefits-row">
@@ -189,8 +198,49 @@
         </div>
     </div>
 </section>
+<section class="container-fluid content slider">
+    <div class="container">
+        <h2 class="h2-title">Our Works</h2>
+        <div class="slider-cover">
+            <input type="radio" id="im1" name="images" checked />
+            <input type="radio" id="im2" name="images" />
+            <input type="radio" id="im3" name="images" />
+            <input type="radio" id="im4" name="images" />
+            <input type="radio" id="im5" name="images" />
 
-<section class="container-fluid contacts" id="contacts">
+            <div class="slider-img img-1">
+                <h3>Bridal Presents</h3>
+                <a href="">View more</a>
+            </div>
+            <div class="slider-img img-2">
+                <h3>LUXi File Manager</h3>
+                <a href="">View more</a>
+            </div>
+            <div class="slider-img img-3">
+                <h3>VIP Hunting</h3>
+                <a href="">View more</a>
+            </div>
+            <div class="slider-img img-4">
+                <h3>Main Street</h3>
+                <a href="">View more</a>
+            </div>
+            <div class="slider-img img-5">
+                <h3>Rebeka Oslo</h3>
+                <a href="">View more</a>
+            </div>
+
+            <div class="slider-nav">
+                <label for="im1" class="label1"></label>
+                <label for="im2" class="label2"></label>
+                <label for="im3" class="label3"></label>
+                <label for="im4" class="label4"></label>
+                <label for="im5" class="label5"></label>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid content contacts" id="contacts">
     <div class="container">
         <h2 class="h2-title">Our contacts</h2>
         <div class="contacts-row">
@@ -203,16 +253,16 @@
                 <a href="tel:+3809355557744">
                     <span class="icon-phone"></span>+380935878843
                 </a>
-                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">
-                    <span class="icon-mail"></span>ari.villoso@academy.com
+                <a href="mailto:mariana.svirzhevska@gmail.com">
+                    <span class="icon-mail"></span>smart.view@academy.com
                 </a>
-                <a href="mailto:mariana.svirzhevska@gmail.com?subject=Test mailto link">
+                <a href="mailto:mariana.svirzhevska@gmail.com">
                     <span class="icon-mail"></span>info.center@academy.com
                 </a>
             </div>
             <div class="map-container">
                 <div>
-                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=28%20Fizkultury%20Street%2C%2003150%20Kyiv%20Ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=28%20Fizkultury%20Street%2C%2003150%20Kyiv%20Ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                 </div>
             </div>
         </div>
@@ -222,7 +272,7 @@
 
 <footer class="container-fluid">
     <div class="container flexed-row">
-        <p class="copyrights">&copy; 2019, Ari Villoso. All rights reserved.</p>
+        <p class="copyrights">&copy; 2019, Smart View. All rights reserved.</p>
         <ul class="footer-nav">
             <li><a href="">Main</a></li>
             <li><a href="">Services</a></li>

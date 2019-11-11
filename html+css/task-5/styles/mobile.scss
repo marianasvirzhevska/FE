@@ -1,0 +1,225 @@
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition:$transition;
+  transition:$transition;
+}
+
+
+// small screens
+@media(max-width: 1200px) {
+  .h1-title {font-size: 60px;}
+}
+
+// Tablet styles
+@media(max-width: 990px){
+  .h1-title{font-size: 50px;}
+  .main-content{
+    h1{margin: 25px 0;}
+    h2, h3{font-size: 15px;}
+  }
+  .benefits{
+    &-item {
+      flex: 0 0.25 25%;
+      margin: 20px 10px;
+      h3 {font-size: 14px;}
+    }
+    &-img{
+      height: 110px;
+      img{
+        max-width: 110px;
+        max-height: 100px;
+      }
+    }
+  }
+  footer{
+    padding: 20px 0;
+    .flexed-row {
+      flex-flow: wrap;}
+    .footer-nav{
+      order: 3;
+      flex: 0 0 100%;
+      margin-top: 20px;
+      padding-top: 20px;
+      justify-content: center;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      li{
+        width: auto;
+      }
+    }
+  }
+}
+
+@media(max-width: 768px){
+  .nav-container{
+    position: initial;
+    .logo{
+      span{display: none}
+    }
+    .nav {
+      width: 100%;
+      top: 75px;
+      right: 0;
+      display: block;
+      position: absolute;
+      background: #f6f8ff;
+      transform: translateY(-200%);
+      @include transition(transform ease-in-out 0.6s);
+      border-top: 1px solid rgba(115, 115, 139, 0.1);
+      box-shadow: 0 4px 4px 0 rgba(115, 115, 139, 0.12);
+      ul {
+        margin: 30px 20px;
+        flex-direction: column;
+        background: #f6f8ff;
+
+        li{
+          padding: 5px 10px;
+          margin-left: 0;
+        }
+      }
+      ul ul {
+        background: #f6f8ff;
+        visibility: visible;
+        box-shadow: none;
+        position: relative;
+        border-radius: 0;
+        padding: 0;
+      }
+      ul ul ul {
+        background: #f6f8ff;
+        left: unset;
+      }
+    }
+  }
+  .accordion{
+    &::after{display: none;}
+    &-target{
+      max-height: 0;
+      margin: 5px 0;
+      overflow: hidden;
+      position: absolute;
+      @include transition(all .35s);
+    }
+    &-trigger{display: inline-block;}
+    &-switch:checked{
+      ~ .accordion-target{
+        margin: 12px 0;
+      }
+    }
+  }
+
+  .nav-mobile{
+    &-trigger{display: block;}
+    &-switch:checked ~ .nav{
+      transform: translateY(0);
+    }
+  }
+  .h1-title{
+    font-size: 30px;
+    margin: 14px 0;
+  }
+  .h2-title{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+  .content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .main-content h3 {font-size: 14px;}
+}
+
+@media(max-width: 450px){
+  .team{
+    padding-top: 20px;
+    &-member{
+      flex: 0 0 100%;
+      padding: 0 0 35px;
+      &:last-child{padding: 0;}
+    }
+  }
+  .benefits{
+    h2{margin: 20px 0 20px;}
+    &-item{
+      flex: 0 0.33 33%;
+      margin: 0 20px 20px;
+    }
+  }
+  .form .flexed-row{
+    flex-direction: column;
+    div:first-child, div:last-child{
+      padding: 0;
+    }
+  }
+  .slider{
+    &-cover{
+      margin-top: 20px;
+      padding-bottom: 70%;
+    }
+    &-img {
+      h3 {
+        margin: 0 0 12px;
+        font-size: 24px;
+      }
+      a {font-size: 13px;}
+      &.img-1{
+        background: url("../images/projects/ariVilloso-mobile.jpg") no-repeat center;
+        background-size: cover;
+      }
+      &.img-2{
+        background: url("../images/projects/dexor-mobile.jpg") no-repeat center;
+        background-size: cover;
+      }
+      &.img-3{
+        background: url("../images/projects/dld-mobile.jpg") no-repeat center;
+        background-size: cover;
+      }
+      &.img-4{
+        background: url("../images/projects/mainstreet-mobile.jpg") no-repeat center;
+        background-size: cover;
+      }
+      &.img-5{
+        background: url("../images/projects/oksanaOrda-mobile.jpg") no-repeat center;
+        background-size: cover;
+      }
+    }
+  }
+  .contacts{
+    &-row {padding: 0;}
+    &-info{flex: 0 0 100%;}
+  }
+  .map-container{
+    flex: 0 0 100%;
+    margin-top: 22px;
+  }
+  footer{
+    .flexed-row{
+      justify-content: center;}
+    .copyrights{
+      width: 100%;
+      text-align: center;
+    }
+    .socials{
+      order: 3;
+      width: 100%;
+      justify-content: center;
+      padding-top: 23px;
+      margin-top: 23px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      li.socials-title{
+        display: none;
+      }
+    }
+    .footer-nav{
+      justify-content: space-around;
+      margin-top: 20px;
+      li{
+        margin: 0;
+        a{
+          padding: 0;
+        }
+      }
+    }
+  }
+}
