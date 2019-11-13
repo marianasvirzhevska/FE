@@ -5,14 +5,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debe470e-5957-4c2f-9fe2-f3bd02781c4a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/images/ico-star-active.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/images/ico-star.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/styles/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/CNAME" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/images/chevrons-right.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/images/github-logo-face.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/images/osi_keyhole_300X300_90ppi_0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/js/prefixfree.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/js/switcher.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/1024-bytes.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/aapl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/adaptype.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/android.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/b4ya11y.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/bbubles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/bleubleu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/blue_square.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/bluebrush.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/bookshelf.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/bundler_inspired.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/butchery.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/casoy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/cloudy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/columns.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/crawl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/cube.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/desktop.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/ebhoren.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/ev.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/expandable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/facetime.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/fancy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/fortyeight1k.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/freshsoda.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/gardenof3den.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/geocities.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/goodnight_moon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/greenlemon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/greymatter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/heart_css.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/helvetipink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/html5colors.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/imbatman.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/inset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/juizstar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/legible.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/lessismore.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/lucuma.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/m6tt.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/mitchiru.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/molokai.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/monochrome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/moonlight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/narcissist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/northern-lights.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/notepad.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/noticeboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/oldie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/oldschool.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/openwater.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/paper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/photobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/ribbon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/roundrect.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/simpl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/simplebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/skewed.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/smile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/solarized.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/sourcy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/spartan.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/stretchy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/stripes.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/summersun.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/swiss.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/terminal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/textlevels.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/therhythm.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/thesimpleswede.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/toolbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/trainspotting.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/triangulate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/turnaround.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/typewriter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/typhon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/whirl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/wired.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/wolfr.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/yelo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/styles/yollaw.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/tools/1kcheck" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/tools/1kcheck.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-7/tools/1kcheck.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/index.html" afterPath="$PROJECT_DIR$/html+css/task-6/index.html" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/styles.css" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/styles.css.map" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.css.map" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/styles.scss" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,64 +114,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css/task-4/index.html">
+        <entry file="file://$PROJECT_DIR$/html+css/task-7/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css/task-4/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="199" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="568" column="18" lean-forward="false" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
+            <state relative-caret-position="-210">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <element signature="e#9092#9372#0" expanded="false" />
+                <element signature="n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css/task-6/index.html">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html+css/task-7/styles/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="412">
+              <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="github-logo-face.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css/task-7/images/github-logo-face.svg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html+css/task-6/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="198" column="25" lean-forward="false" selection-start-line="198" selection-start-column="19" selection-end-line="198" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -131,10 +197,12 @@
       <find>accordion</find>
       <find>acco</find>
       <find>449FDB</find>
+      <find>7a808c</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>bfbfbf</replace>
+      <replace>252525</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,6 +241,8 @@
         <option value="$PROJECT_DIR$/html+css/task-6/images/ico-star.svg" />
         <option value="$PROJECT_DIR$/html+css/task-6/index.html" />
         <option value="$PROJECT_DIR$/html+css/task-6/styles/main.scss" />
+        <option value="$PROJECT_DIR$/html+css/task-7/CSS1K/images/chevrons-right.svg" />
+        <option value="$PROJECT_DIR$/html+css/task-7/CSS1K/styles/default.css" />
       </list>
     </option>
   </component>
@@ -189,7 +259,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+    <option name="x" value="846" />
+    <option name="width" value="834" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -223,19 +294,6 @@
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FE" type="462c0819:PsiDirectoryNode" />
               <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-4" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css" type="462c0819:PsiDirectoryNode" />
               <item name="task-5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +301,7 @@
               <item name="FE" type="462c0819:PsiDirectoryNode" />
               <item name="html+css" type="462c0819:PsiDirectoryNode" />
               <item name="task-5" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
@@ -269,16 +327,21 @@
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FE" type="462c0819:PsiDirectoryNode" />
               <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-6" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="main.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="task-7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css" type="462c0819:PsiDirectoryNode" />
+              <item name="task-7" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,16 +354,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html+css/task-6/images" />
-      <recent name="$PROJECT_DIR$/html+css/task-6/styles" />
-      <recent name="$PROJECT_DIR$/html+css/task-5/images/projects" />
-      <recent name="$PROJECT_DIR$/html+css/task-5/images/icon" />
-      <recent name="$PROJECT_DIR$/html+css/task-5/fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html+css/task-7" />
       <recent name="$PROJECT_DIR$/html+css/task-1" />
       <recent name="$PROJECT_DIR$/http/task-1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/images" />
+      <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/img" />
+      <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/styles" />
+      <recent name="$PROJECT_DIR$/html+css/task-6/images" />
+      <recent name="$PROJECT_DIR$/html+css/task-6/styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,26 +405,25 @@
       <workItem from="1572643572574" duration="672000" />
       <workItem from="1572897841980" duration="8979000" />
       <workItem from="1573125977593" duration="37032000" />
-      <workItem from="1573486208541" duration="8350000" />
+      <workItem from="1573486208541" duration="8515000" />
+      <workItem from="1573665035054" duration="8085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82372000" />
+    <option name="totallyTimeSpent" value="90622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35414535" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3531218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,6 +431,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -382,41 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/http/task-2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html+css/task-1/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -637,17 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="568" column="18" lean-forward="false" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
-          <folding>
-            <element signature="e#9092#9372#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,15 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +705,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="199" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="568" column="18" lean-forward="false" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
+          <folding>
+            <element signature="e#9092#9372#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,10 +733,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-7/styles/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-7/images/chevrons-right.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html+css/task-6/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="198" column="25" lean-forward="false" selection-start-line="198" selection-start-column="19" selection-end-line="198" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-7/images/github-logo-face.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-7/styles/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
           <folding />
         </state>
       </provider>
