@@ -162,6 +162,12 @@ html, body {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%; }
+    .colors label.green::after {
+      background: #1be95f; }
+    .colors label.orange::after {
+      background: #f2530f; }
+    .colors label.yellow::after {
+      background: #efd91c; }
   .colors input#green:checked ~ .green {
     border-color: #1be95f; }
     .colors input#green:checked ~ .green::after {

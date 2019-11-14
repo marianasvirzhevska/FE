@@ -192,6 +192,15 @@ html,body{
       -moz-border-radius: 50%;
       border-radius: 50%;
     }
+    &.green::after{
+      background: #1be95f;
+    }
+    &.orange::after{
+      background: #f2530f;
+    }
+    &.yellow::after{
+      background: #efd91c;
+    }
   }
   input#green:checked ~ .green {
     border-color: #1be95f;
