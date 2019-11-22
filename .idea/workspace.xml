@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debe470e-5957-4c2f-9fe2-f3bd02781c4a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/armor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/back-big.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/belt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/bg_item-right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/bg_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/blue-book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/btn-add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/coulomb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/cube.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/decoration.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/footer-center.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/gear-btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/gold-book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/gold-ring.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/key.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/life.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/man.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/money.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/orange-ring.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-branch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-cristall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-fang.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-fire.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-pear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa-time.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/runa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/images/shoes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-8/styles/main.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/main.css" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/main.css.map" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.css.map" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/styles/main.scss" afterPath="$PROJECT_DIR$/html+css/task-6/styles/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +48,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html+css/task-6/styles/main.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="201" column="26" lean-forward="false" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+            <state relative-caret-position="504">
+              <caret line="213" column="18" lean-forward="true" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css/task-8/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-870">
+              <caret line="664" column="31" lean-forward="false" selection-start-line="664" selection-start-column="31" selection-end-line="664" selection-end-column="31" />
+              <folding>
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html+css/task-8/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7527">
+              <caret line="530" column="17" lean-forward="false" selection-start-line="530" selection-start-column="17" selection-end-line="530" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="1075" column="24" lean-forward="true" selection-start-line="1075" selection-start-column="1" selection-end-line="1075" selection-end-column="24" />
+              <folding>
+                <element signature="e#9092#9372#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,12 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cach</find>
-      <find>this</find>
-      <find>e3e4e8</find>
-      <find>map</find>
-      <find>contacts</find>
-      <find>re</find>
       <find>benefits</find>
       <find>form</find>
       <find>mem</find>
@@ -76,6 +130,12 @@
       <find>acco</find>
       <find>449FDB</find>
       <find>7a808c</find>
+      <find>box-content</find>
+      <find>wea</find>
+      <find>hand</find>
+      <find>tab</find>
+      <find>right-</find>
+      <find>bottom</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,6 +181,8 @@
         <option value="$PROJECT_DIR$/html+css/task-7/CSS1K/images/chevrons-right.svg" />
         <option value="$PROJECT_DIR$/html+css/task-7/CSS1K/styles/default.css" />
         <option value="$PROJECT_DIR$/html+css/task-6/styles/main.scss" />
+        <option value="$PROJECT_DIR$/html+css/task-8/styles/main.scss" />
+        <option value="$PROJECT_DIR$/html+css/task-8/index.html" />
       </list>
     </option>
   </component>
@@ -136,8 +198,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="834" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -155,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -179,33 +242,40 @@
               <item name="FE" type="462c0819:PsiDirectoryNode" />
               <item name="html+css" type="462c0819:PsiDirectoryNode" />
               <item name="task-5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-6" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css" type="462c0819:PsiDirectoryNode" />
-              <item name="task-6" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css" type="462c0819:PsiDirectoryNode" />
+              <item name="task-8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css" type="462c0819:PsiDirectoryNode" />
+              <item name="task-8" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css" type="462c0819:PsiDirectoryNode" />
+              <item name="task-8" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css" type="462c0819:PsiDirectoryNode" />
+              <item name="task-8" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="main.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,17 +288,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html+css/task-7" />
-      <recent name="$PROJECT_DIR$/html+css/task-1" />
-      <recent name="$PROJECT_DIR$/http/task-1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html+css/task-8/images" />
       <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/images" />
       <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/img" />
       <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/styles" />
       <recent name="$PROJECT_DIR$/html+css/task-6/images" />
-      <recent name="$PROJECT_DIR$/html+css/task-6/styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html+css/task-7" />
+      <recent name="$PROJECT_DIR$/html+css/task-1" />
+      <recent name="$PROJECT_DIR$/http/task-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,12 +341,13 @@
       <workItem from="1573125977593" duration="37032000" />
       <workItem from="1573486208541" duration="8515000" />
       <workItem from="1573665035054" duration="8529000" />
-      <workItem from="1573744294009" duration="284000" />
+      <workItem from="1573744294009" duration="344000" />
+      <workItem from="1573847542710" duration="29091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91350000" />
+    <option name="totallyTimeSpent" value="120501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -289,7 +360,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34493348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33674514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,20 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/task-2/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -573,30 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="568" column="18" lean-forward="false" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
-          <folding>
-            <element signature="e#9092#9372#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css/task-6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html+css/task-7/styles/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -613,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1796">
           <caret line="190" column="15" lean-forward="false" selection-start-line="190" selection-start-column="15" selection-end-line="190" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,6 +665,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="201" column="26" lean-forward="false" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="213" column="18" lean-forward="true" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="1075" column="24" lean-forward="true" selection-start-line="1075" selection-start-column="1" selection-end-line="1075" selection-end-column="24" />
+          <folding>
+            <element signature="e#9092#9372#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="664" column="31" lean-forward="false" selection-start-line="664" selection-start-column="31" selection-end-line="664" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css/task-8/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7527">
+          <caret line="530" column="17" lean-forward="false" selection-start-line="530" selection-start-column="17" selection-end-line="530" selection-end-column="17" />
           <folding />
         </state>
       </provider>
