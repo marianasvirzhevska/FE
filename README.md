@@ -1,2 +1,2 @@
 # FE
-https://marianasvirzhevska.github.io/FE
+https://marianasvirzhevska.github.io/FE/index
