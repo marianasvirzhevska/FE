@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debe470e-5957-4c2f-9fe2-f3bd02781c4a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/task-4/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/task-4/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/images/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/images/bg@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/assets/images/logo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/Dashboard/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/Login/LoginForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/Login/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/Register/RegisterForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/Register/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Button/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Button/styles.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Input/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Input/styles.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Loader/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/components/common/Loader/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/index.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/styles/_fonts.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/styles/_mixins.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/styles/_variables.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/styles/auth.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task-manager/src/styles/main.sass" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/task-3/index.html" afterPath="$PROJECT_DIR$/js/task-3/index.html" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package.json" afterPath="$PROJECT_DIR$/task-manager/package.json" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/App.js" afterPath="$PROJECT_DIR$/task-manager/src/App.js" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" afterPath="$PROJECT_DIR$/task-manager/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,34 +51,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/task-3/main.js">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/components/Register/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/task-4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="116" column="39" lean-forward="false" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1577133060085" expanded="true" signature="291:336" ph="..." />
+                <marker date="1577133060085" expanded="true" signature="369:482" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/task-4/main.js">
+      <file leaf-file-name="RegisterForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/components/Register/RegisterForm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Input/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Input/styles.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/styles/auth.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/styles/_variables.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/index.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -60,16 +139,12 @@
         <option value="SCSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-target</find>
-      <find>-switch</find>
-      <find>-trigger</find>
-      <find>visibi</find>
-      <find>nav</find>
       <find>.nav</find>
       <find>nav-container</find>
       <find>nav-mobile</find>
@@ -95,34 +170,31 @@
       <find>input</find>
       <find>PcGuess</find>
       <find>PlGuess</find>
+      <find>Work Sans</find>
+      <find>;</find>
+      <find>cfcfe1</find>
+      <find>73738b</find>
+      <find>.register</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>bfbfbf</replace>
       <replace>252525</replace>
       <replace>PcGuess</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cdc615fe95c30a0f55de26b98ee17f3632d7e93c" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/http/test.json" />
-        <option value="$PROJECT_DIR$/http/task-2/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/http/task-2/index.js" />
-        <option value="$PROJECT_DIR$/html+css/task-1/styles/styles.css" />
-        <option value="$PROJECT_DIR$/html+css/task-1/script/main.js" />
-        <option value="$PROJECT_DIR$/html+css/task-1/index.html" />
-        <option value="$PROJECT_DIR$/html+css/task-1/styles/main.css" />
-        <option value="$PROJECT_DIR$/html+css/task-2/styles/main.css" />
         <option value="$PROJECT_DIR$/html+css/task-2/index.html" />
         <option value="$PROJECT_DIR$/html+css/task-3/undex.html" />
         <option value="$PROJECT_DIR$/html+css/task-3/styles/main.css" />
@@ -152,6 +224,28 @@
         <option value="$PROJECT_DIR$/js/task-3/index.html" />
         <option value="$PROJECT_DIR$/js/task-4/main.js" />
         <option value="$PROJECT_DIR$/js/task-4/index.html" />
+        <option value="$PROJECT_DIR$/task-manager/src/index1.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/test.sass" />
+        <option value="$PROJECT_DIR$/task-manager/package.json" />
+        <option value="$PROJECT_DIR$/task-manager/src/1111.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/index.css" />
+        <option value="$PROJECT_DIR$/task-manager/src/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/styles/_fonts.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/styles/_mixins.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/Dashboard/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/App.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/index.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/common/Button/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/common/Button/styles.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/styles/_variables.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/styles/main.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/common/Input/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/Login/LoginForm.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/Login/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/Register/index.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/common/Input/styles.sass" />
+        <option value="$PROJECT_DIR$/task-manager/src/components/Register/RegisterForm.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/styles/auth.sass" />
       </list>
     </option>
   </component>
@@ -199,19 +293,66 @@
             <path>
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="task-3" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FE" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="task-4" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,26 +362,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-manager/src/components/Register" />
+      <recent name="$PROJECT_DIR$/task-manager/src/components/common" />
+      <recent name="$PROJECT_DIR$/task-manager/src/styles" />
+      <recent name="$PROJECT_DIR$/task-manager/src/assets/images" />
+      <recent name="$PROJECT_DIR$/task-manager/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js/task-1" />
       <recent name="$PROJECT_DIR$/html+css/task-7" />
       <recent name="$PROJECT_DIR$/html+css/task-1" />
       <recent name="$PROJECT_DIR$/http/task-1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js/task-2" />
-      <recent name="$PROJECT_DIR$/js/task-3" />
-      <recent name="$PROJECT_DIR$/html+css/task-8/images" />
-      <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/images" />
-      <recent name="$PROJECT_DIR$/html+css/task-7/CSS1K/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,30 +431,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162355000" />
+    <option name="totallyTimeSpent" value="173051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1217601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14104882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33674514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36745137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33674514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1217601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,39 +479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/task-1/test.json" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/fonts/Ubuntu-Regular.eot" />
-    <entry file="file://$PROJECT_DIR$/http/task-2/index.js" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-1/script/main.js" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-2/styles/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-2/images/star.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-2/images/ico-hobby.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-2/images/ico-success-step.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-3/styles/main.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-4/styles/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-4/fonts/Ubuntu-Regular.eot" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-4/fonts/mplus-1m-regular.eot" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-2/index.html" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/fonts/icomoon.eot" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/images/icon/chevron-down.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/main.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/test.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/site.webmanifest" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/browserconfig.xml" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-5/styles/mobile.scss" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-6/styles/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-6/images/ico-star-active.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-6/images/ico-star.svg" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-3/index.html" />
-    <entry file="file://$PROJECT_DIR$/html+css/task-4/index.html" />
     <entry file="file://$PROJECT_DIR$/html+css/task-4/styles/main.css" />
     <entry file="file://$PROJECT_DIR$/html+css/task-7/styles/normalize.css" />
     <entry file="file://$PROJECT_DIR$/html+css/task-7/images/chevrons-right.svg" />
@@ -452,6 +571,247 @@
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-6/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-4/main.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/index1.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1577100856758" expanded="true" signature="558945:558951" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/test.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/assets/fonts/WorkSans-Black.ttf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/styles/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/styles/_fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/Dashboard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Loader/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Button/styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/styles/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/styles/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/Login/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1577132158043" expanded="true" signature="614:738" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/Login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1577132383303" expanded="true" signature="280:325" ph="..." />
+            <marker date="1577132383303" expanded="true" signature="358:471" ph="..." />
+            <marker date="1577132383303" expanded="true" signature="524:586" ph="..." />
+            <marker date="1577132383303" expanded="true" signature="616:689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/Register/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1577133060085" expanded="true" signature="291:336" ph="..." />
+            <marker date="1577133060085" expanded="true" signature="369:482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Input/styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/common/Input/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/components/Register/RegisterForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/styles/auth.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
