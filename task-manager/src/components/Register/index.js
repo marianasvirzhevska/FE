@@ -17,7 +17,7 @@ const Register = () => {
 			</div>
 			<div className="form-cover registerForm">
 				<h1 className="form-title">Registration</h1>
-				<RegisterForm/>
+				<RegisterForm />
 				<p className="reset-link">Have an account?
 					<Link to='/login'>Sign in</Link>
 				</p>
