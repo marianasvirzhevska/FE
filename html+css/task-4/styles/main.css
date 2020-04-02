@@ -1,0 +1,264 @@
+@import './normalize.css';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+@font-face {
+  font-style: normal;
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"),
+       url("../fonts/Ubuntu-Regular.woff") format("woff");
+       url("../fonts/Ubuntu-Regular.eot?") format("eot");
+       url("../fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-style: normal;
+  font-family: "mplus";
+  src: url("../fonts/mplus-1m-regular.woff2") format("woff2"),
+       url("../fonts/mplus-1m-regular.woff") format("woff");
+       url("../fonts/mplus-1m-regular.eot?") format("eot");
+       url("../fonts/mplus-1m-regular.ttf") format("ttf");
+}
+
+body{
+  font-size: 16px;
+  color: #73738b;
+  background: #f3f4f7;
+  font-family: "Open Sans", sans-serif;
+}
+
+main{
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 10px;
+}
+
+h2 span{
+  font-size: 24px;
+  font-weight: 200;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title-v1{
+  color: #000;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.title-v2{
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "mplus", sans-serif;
+}
+
+.breadcrumbs{
+  padding: 0;
+  display: flex;
+  margin: 30px 0;
+  list-style: none;
+}
+
+.breadcrumbs li{
+  color: #fff;
+}
+
+
+
+.breadcrumbs li a{
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Ubuntu', sans-serif;
+  background: #51dcf1;
+  border-radius: 4px 0 0 4px;
+  position: relative;
+}
+.breadcrumbs li:last-child a{
+  background: #3750ff;
+}
+.breadcrumbs li a::after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 24px solid #51dcf1;
+  position: absolute;
+  /*top: 50%;*/
+  margin-top: -33px;
+  left: 100%;
+  z-index: 2;
+}
+.breadcrumbs li a::before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 24px solid #fff;
+  position: absolute;
+  /*top: 50%;*/
+  margin-top: -15px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1;
+}
+
+.breadcrumbs li:last-child a::after {
+  border-left: 24px solid #3750ff;
+}
+
+.breadcrumbs.second li a{
+  font-family: 'mplus', sans-serif;
+}
+
+.breadcrumbs.second li:last-child a{
+  background: #51dcf1;
+}
+.breadcrumbs.second li:last-child a::after {
+  border-left: 24px solid #51dcf1;
+}
+
+.breadcrumbs.second li a:hover{
+  background: #3750ff;
+}
+
+.breadcrumbs.second li a:hover::after{
+  border-left: 24px solid #3750ff;
+}
+
+
+/*  Styled Radio */
+
+.radio-cover{
+  margin: 20px 0;
+  outline: none;
+  border: none;
+}
+
+.radio-group{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.radio-group label{
+  font-family: 'mplus', sans-serif;
+  padding-left: 30px;
+  position: relative;
+  color: #000;
+}
+
+.hidden{
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.radio{
+  left: 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #a4a6aa;
+  position: absolute;
+}
+
+.radio::after{
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  content: ' ';
+  position: absolute;
+  background: #e3e4e8;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+input.hidden:checked ~ .radio {
+  border-color: #00c853;
+}
+
+input.hidden:checked ~ .radio::after{
+  background: #00c853;
+}
+
+/* Trigger styles */
+
+.trigger-cover {
+  width: 60px;
+  height: 30px;
+  margin: 20px 0;
+  border: 1px solid #e3e4e8;
+  border-radius: 15px;
+  position: relative;
+}
+
+.trigger1{
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: #00c853;
+  border-radius: 15px;
+  transition: width ease 0.1s;
+}
+
+.trigger2{
+  right: 0;
+  width: 30px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: #fff;
+  border-radius: 15px;
+  transition: width ease 0.1s;
+}
+.trigger2::after{
+  top: -1px;
+  right: -1px;
+  width: 30px;
+  height: 30px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #a4a6aa;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  transition: right ease 0.2s;
+}
+
+input[value="trigger1"]:checked ~ .trigger1{
+  width: 30px;
+}
+
+input[value="trigger1"]:checked ~ .trigger2{
+  width: 100%
+}
+input[value="trigger1"]:checked ~ .trigger2::after{
+  right: 30px;
+}
+
+
+
+
+
+

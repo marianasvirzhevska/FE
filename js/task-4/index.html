@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+
+    <!-- old version -->
+    <!--<script src="main.js"></script>-->
+
+    <!-- Refactored version -->
+    <script src="main.2.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-size: 14px;
+            background: #f3f4f7;
+            font-family: "Open Sans", sans-serif;
+        }
+        .container{
+            width: 100%;
+            max-width: 800px;
+            margin: 2em auto;
+            display: flex;
+            position: relative;
+        }
+        .container div{
+            flex: 0 0.5 50%;
+            padding: 16px;
+            background: #fff;
+            position: relative;
+        }
+        .container > button {
+            position: absolute;
+            bottom: -60px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            box-shadow: none;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            border-radius: 4px;
+            background: #f8565b;
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 20px;
+            min-width: auto;
+        }
+        input{
+            min-width: 150px;
+            font-weight: normal;
+            background-color: #fff;
+            border-radius: 4px;
+            border: solid 1px rgba(160, 163, 174, 0.4);
+            padding: 10px 15px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance:textfield;
+        }
+        input[type=submit]{
+            outline: none;
+            border: none;
+            cursor: pointer;
+            box-shadow: none;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            border-radius: 4px;
+            background: #2cb845;
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 20px;
+            margin-left: 10px;
+            min-width: auto;
+        }
+        input[type=submit]:disabled, input[type=number]:disabled {
+            opacity: 0.5;
+        }
+        form{
+            display: none;
+        }
+        #secret-form input[type=submit]{
+            background: #0fa3fe;
+        }
+        #guess-form input[type=submit]{
+            background: #2cb845;
+        }
+        .visible{
+            display: block;
+        }
+        h4{
+            margin: 14px 0;
+            color: #61636a;
+            font-weight: 600;
+        }
+        p{
+            margin: 14px 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="computer">
+        <h4 class="title">Computer</h4>
+        <p class="pc-hint">Guess number from 1 to 100. (Tries: 0)</p>
+    </div>
+    <div class="player">
+        <h4 class="title">Player</h4>
+        <p class="pl-hint">Guess number from 1 to 100. (Tries: 0)</p>
+        <form id="secret-form" class="visible">
+            <p>Your secret number</p>
+            <input type="number" min="1" max="100" id="secret">
+            <input type="submit" class="secret-button" value="Enter"/>
+        </form>
+        <form id="guess-form">
+            <input type="number" min="1" max="100" id="guess">
+            <input type="submit" id="guess-btn" value="Enter"/>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
